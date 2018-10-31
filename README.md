@@ -1,7 +1,6 @@
 # Yapen
-사진 찍고 오는 여행 No! 발자국만 찍고 돌고 오는 여행 No! 진정한 여행이란? <br>
-나의 여행 후기를 들려 주었을때, 듣는 사람으로 하여금 마치 그곳을 여행 다녀온듯한 느낌을 줄수 있는가? <br>
-여러분의 영원히 기억될 여행추억 with My Small Trip 입니다. <br>
+ <br>
+. <br>
 
 ## 프로젝트 소개
  4개월 동안 웹 프로그래밍 스쿨에서 배운 기술과 IOS 협업을 통해 `Yapen' 웹 개발
@@ -129,8 +128,8 @@ FROM    <사용자명>/<저장소명>:base
   "EMAIL_HOST" : "smtp.gmail.com",
   "EMAIL_HOST_USER" : "<host user-email>",
   "EMAIL_HOST_PASSWORD" : "<<host user-password>",
-  "SERVER_EMAIL" : "<server-email>"",
-  "DEFAULT_FROM_MAIL" : "<default_from-email>""
+  "SERVER_EMAIL" : "<server-email>",
+  "DEFAULT_FROM_MAIL" : "<default_from-email>"
 
 
 }
@@ -154,7 +153,7 @@ FROM    <사용자명>/<저장소명>:base
       "PORT": "<Port number, default:5432>"
     }
   }
-  "AWS_STORAGE_BUCKET_NAME":"<AWS_BUCKET_NAME>",
+  "AWS_STORAGE_BUCKET_NAME" : "<AWS_BUCKET_NAME>",
 }
 ```
 
@@ -174,6 +173,6 @@ FROM    <사용자명>/<저장소명>:base
       "PORT": "<Port number, default:5432>"
     }
   }
-  "AWS_STORAGE_BUCKET_NAME":"<AWS_BUCKET_NAME>",
+  "AWS_STORAGE_BUCKET_NAME" : "<AWS_BUCKET_NAME>",
 }
 ```

@@ -8,8 +8,8 @@
 ## 프로젝트 소개 영상
 
 ## 프로젝트 구성
-- 프로젝트 팀구성 : 백엔드2명, IOS 앱개발 3명
-- 기간 : 2018.04.02 ~ 04.25
+- 프로젝트 팀구성 : 백엔드3명, IOS 앱개발 2명, 프론트엔드3명
+- 기간 : 2018.08.01 ~ 08.24
 - 역할 : 서버세팅 및 배포, API작성
 - 사용 언어 및 프로그램
   - 공통 : Git, Postman, Slack
@@ -152,8 +152,8 @@ FROM    <사용자명>/<저장소명>:base
       "PASSWORD": "<DB user password>",
       "PORT": "<Port number, default:5432>"
     }
-  }
-  "AWS_STORAGE_BUCKET_NAME" : "<AWS_BUCKET_NAME>",
+  },
+  "AWS_STORAGE_BUCKET_NAME": "<AWS_BUCKET_NAME>"
 }
 ```
 
@@ -172,7 +172,7 @@ FROM    <사용자명>/<저장소명>:base
       "PASSWORD": "<DB user password>",
       "PORT": "<Port number, default:5432>"
     }
-  }
-  "AWS_STORAGE_BUCKET_NAME" : "<AWS_BUCKET_NAME>",
+  },
+  "AWS_STORAGE_BUCKET_NAME": "<AWS_BUCKET_NAME>"
 }
 ```

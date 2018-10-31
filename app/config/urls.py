@@ -23,10 +23,10 @@ from .views import index
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index),
-    path('members/', include('members.urls')),
-    path('location/', include('location.urls')),
-    path('reservation/', include('reservation.urls')),
-    path('search/', include('search.urls'))
+    # path('members/', include('members.urls')),
+    # path('location/', include('location.urls')),
+    # path('reservation/', include('reservation.urls')),
+    # path('search/', include('search.urls'))
 
 
 ]

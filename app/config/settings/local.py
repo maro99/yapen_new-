@@ -15,7 +15,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(ROOT_DIR, '.static')
 
 
-INSTALLED_APPS += ['django_extensions']
+# INSTALLED_APPS += ['django_extensions']
 
 WSGI_APPLICATION = 'config.wsgi.local.application'
 

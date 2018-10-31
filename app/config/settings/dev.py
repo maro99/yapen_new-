@@ -5,9 +5,9 @@ DEBUG = True
 
 secrets = json.load(open(os.path.join(SECRET_DIR, 'dev.json')))
 
-INSTALLED_APPS += [
-    'storages',
-]
+# INSTALLED_APPS += [
+#     'storages',
+# ]
 
 
 DEFAULT_FILE_STORAGE = 'config.storages.S3DefaultStorage'

@@ -32,7 +32,7 @@ secrets = json.load(open(os.path.join(SECRET_DIR, 'base.json')))
 
 SECRET_KEY = secrets['SECRET_KEY']
 
-# Auth
+# # Auth
 AUTH_USER_MODEL = 'members.User'
 
 # Static

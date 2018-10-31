@@ -20,10 +20,10 @@ if RUNSERVER:
 # wsgi
 WSGI_APPLICATION = 'config.wsgi.production.application'
 
-INSTALLED_APPS += [
-    'storages',
-
-]
+# INSTALLED_APPS += [
+#     'storages',
+#
+# ]
 
 # AWS
 AWS_STORAGE_BUCKET_NAME = secrets['AWS_STORAGE_BUCKET_NAME']

@@ -12,11 +12,11 @@ DATABASES = {
     }
 }
 
-STATIC_URL = '/static/'
-
-
 
 LOG_DIR = os.path.join(ROOT_DIR, '.log')
+if not os.path.exists(LOG_DIR):
+    os.makedirs(LOG_DIR)
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,

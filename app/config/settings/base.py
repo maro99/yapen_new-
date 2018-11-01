@@ -29,7 +29,8 @@ secrets = json.load(open(os.path.join(SECRET_DIR, 'base.json')))
 # Static
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(ROOT_DIR, '.static')
-# Media
+
+#Media
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(ROOT_DIR, '.media')
 

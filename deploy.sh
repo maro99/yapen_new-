@@ -8,6 +8,3 @@ eb deploy --profile fc-8th-eb --staged
 
 # .secrets와 requirements를 staging area에서 제거
 git reset HEAD .secrets/
-
-# requriements.txt 삭제
-rm -f requirements.txt

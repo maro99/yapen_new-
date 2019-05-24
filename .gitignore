@@ -10,6 +10,11 @@
 *.log
 *.pot
 *.pyc
+
+### travis ###
+requirements.txt
+
+
 __pycache__/
 local_settings.py
 db.sqlite3

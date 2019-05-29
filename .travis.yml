@@ -13,6 +13,10 @@ install:
 - pip install psycopg2
 
 before_script:
-- psql -c 'create database travis_ci_test;' -U postgres
+  - psql -c 'create database travis_ci_test;' -U postgres
+  - cp database.travis.yml config/database.yml
 script:
 - python app/manage.py test
+
+
+

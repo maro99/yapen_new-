@@ -10,11 +10,10 @@ before_install:
 - export DJANGO_SETTINGS_MODULE=config.settings.production
 install:
 - pip install -r requirements.txt
-- pip install psycopg2
 
 before_script:
   - psql -c 'create database travis_ci_test;' -U postgres
-  - cp database.travis.yml config/database.yml
+  - cp database.travis.yml ./config/database.yml
 script:
 - python app/manage.py test
 

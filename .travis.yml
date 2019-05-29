@@ -9,12 +9,11 @@ before_install:
 - tar xvf secrets.tar
 - export DJANGO_SETTINGS_MODULE=config.settings.production
 install:
-- mkdir $HOME/config
 - pip install -r requirements.txt
 
 before_script:
   - psql -c 'create database travis_ci_test;' -U postgres
-  - cp database.travis.yml  config/database.yml
+  - cp config/database.travis.yml  config/database.yml
 script:
 - python app/manage.py test
 
